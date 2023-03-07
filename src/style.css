@@ -1,0 +1,131 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f6f3ff;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: small;
+  display: block;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+h3 {
+  text-align: center;
+  margin-right: 40px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+li {
+  display: inline;
+  margin: 0 15px;
+  transition: all 200ms ease;
+}
+li:hover {
+  background-color: plum;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -38px;
+}
+
+.container3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Image1 {
+  display: -webkit-box;
+  margin: 20px 170px;
+  width: 400px;
+  border-radius: 50%;
+}
+.Image2 {
+  display: inline-block;
+  width: 350px;
+  margin-right: 5px;
+  border-radius: 20%;
+}
+
+.Image3 {
+  display: -webkit-box;
+  margin: auto;
+  margin-top: 7px;
+  width: 550px;
+  max-width: 100%;
+}
+
+.Image4,
+.Image5 {
+  display: inline-block;
+  width: 250px;
+  margin-right: 5px;
+  border-radius: 20%;
+}
+
+.samples,
+.shop {
+  margin: 30px -20px 30px -20px;
+  text-align: center;
+  text-decoration: solid;
+  font-size: 30px;
+  background-color: plum;
+  padding: 20px;
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+.samples:hover,
+.shop:hover {
+  background: blueviolet;
+}
+.sampleWrapper {
+  margin-top: -30px;
+}
+
+.studioBio {
+  text-align: center;
+  display: block;
+  margin-left: -30px;
+  margin-right: 20px;
+  font-style: italic;
+}
+
+.bio {
+  text-align: center;
+  display: inline-block;
+  margin-top: -30px;
+  margin-right: 60px;
+  font-style: italic;
+}
+
+button {
+  display: block;
+  margin: 30px auto;
+  border: 1px solid black;
+  background: plum;
+  color: white;
+  border-radius: 35%;
+  padding: 20px;
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+
+button:hover {
+  background: blueviolet;
+  border: 1px solid black;
+}
